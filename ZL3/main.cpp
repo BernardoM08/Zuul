@@ -370,7 +370,7 @@ void initItems(vector<Items*>* items)
   items->push_back(bear);
 
   Items* help = new Items();
-  help->setName((char*)("Help From Stranger"));
+  help->setName((char*)("Food Ration"));
   help->setID(4);
   items->push_back(help);
 
